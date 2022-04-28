@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>웹 프로그래밍 과제</title>
+        <style>
+        * { margin: 0; padding: 0; }
+
+        li { 
+            list-style-type: none;
+            padding: 24px 0;
+            border-bottom: 1px solid #c7c7c7;
+        }
+
+        @media screen {
+            div.left {
+                display: none;
+            }
+        }
+
+        @media screen and (orientation: landscape) {
+            div.left {
+                display: block;
+                width: 30%;
+                float: left;
+            }
+
+            div.right {
+                width: 70%;
+                float: right;
+            }
+        }
+
+        div.content {
+            padding: 16px;
+        }
+
+        </style>
+    </head>
+    <body>
+        <div class="left">
+            <div class="content">
+                <h1>List</h1>
+                <ul>
+                    <li>testbox1</li>
+                    <li>testbox2</li>
+                    <li>testbox3</li>
+                    <li>testbox4</li>
+                    <li>testbox5</li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <div class="content">
+                <h1>test logo</h1>
+                <p>test text box hello world!test text box hello world!test text box hello world!test text box hello world!test text box hello world!test text box hello world!test text box hello world!test text box hello world!test text box hello world!test text box hello world!test text box hello world!test text box hello world!</p>
+                <p>test text box hello world!test text box hello world!test text box hello world!test text box hello world!test text box hello world!test text box hello world!test text box hello world!test text box hello world!test text box hello world!test text box hello world!test text box hello world!test text box hello world!</p>
+                <p>test text box hello world!test text box hello world!test text box hello world!test text box hello world!test text box hello world!test text box hello world!test text box hello world!test text box hello world!test text box hello world!test text box hello world!test text box hello world!test text box hello world!</p>
+                <p>test text box hello world!test text box hello world!test text box hello world!test text box hello world!test text box hello world!test text box hello world!test text box hello world!test text box hello world!test text box hello world!test text box hello world!test text box hello world!test text box hello world!</p>
+            </div>
+        </div>
+    </body>
+</html>
